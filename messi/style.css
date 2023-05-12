@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+:root {
+  --clr-drk-blue: #00183e;
+  --clr-blue: #024bc2;
+  --clr-light-blue: #04265da1;
+  --clr-light-blue-hover: #3780ef;
+  --clr-light-blue-shadow: #04429e;
+  --clr-light-blue1: #00b7ff;
+  --clr-cyan: cyan;
+  --clr-white: #c9e9ff;
+  --white: #e1eaf7;
+  --font-family-mono: "Oxygen mono", monospace;
+  --font-family-sans: Oxygen, sans-serif;
+}
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+body {
+  padding: 0;
+  margin: 0;
+  background: var(--clr-drk-blue);
+  text-decoration: none;
+}
+nav {
+  font-family: var(--font-family-sans);
+  padding: 2rem 5rem;
+  background: var(--clr-light-blue);
+  box-shadow: 0 3px 8px 4px var(--clr-light-blue-shadow);
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+  font-size: 120%;
+  flex-wrap: wrap;
+  list-style-type: none;
+  flex-flow: wrap row;
+  padding: 0;
+  margin: 0;
+  text-transform: capitalize;
+}
+nav ul li:first-child {
+  color: var(--clr-white);
+  font-size: 120%;
+  text-align: left;
+  margin-right: auto;
+}
+nav ul li a {
+  text-decoration: none;
+  color: var(--clr-white);
+  font-family: var(--font-family-sans);
+}
+nav ul li a:hover {
+  color: var(--clr-light-blue-hover);
+  text-decoration: underline;
+}
+.intro {
+  padding: 5rem 4rem;
+  font-family: var(--font-family-sans);
+}
+.intro h2 {
+  color: var(--clr-light-blue1);
+  font-size: 4rem;
+  font-family: var(--font-family-sans);
+
+  width: 30%;
+}
+.intro h3 {
+  color: var(--clr-white);
+  font-size: 1.5rem;
+  width: 30%;
+  margin-top: 2vh;
+}
+.intro p {
+  color: var(--white);
+  width: 60%;
+  font-family: roboto;
+  font-size: 100%;
+  line-height: 3.5vh;
+  margin-top: 4vh;
+}
+img {
+  float: right;
+  align-items: center;
+}
+@media (max-width: 850px) {
+  nav ul li:first-child {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
