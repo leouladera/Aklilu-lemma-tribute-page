@@ -1,0 +1,156 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Oxygen&display=swap"); */
+:root {
+  --clr-dark: #222;
+  --clr-white: #fff;
+  --clr-aqua: #86fbfb;
+  --clr-pink: #ff17e4;
+  --clr-pink1: #e310cb;
+  --clr-light: #f2f2f2;
+  --clr-drk-blue: #0d314b;
+  --clr-dark-pink: #4b0d49;
+  --font-size: 1.3rem;
+  --font-size-small: 1rem;
+  --font-size-large: 4rem;
+  --font-style-mono: "Oxygen mono", monospace;
+  --font-style-sans: Oxygen, sans-serif;
+}
+body {
+  margin: 0; /* clears additional spaces for navbars and box*/
+  padding: 0; /* clears additional spaces for navbars and box*/
+  font-family: var(--font-style-sans);
+  background: var(--clr-dark);
+  color: var(--clr-white);
+  font-size: var(--font-size);
+  scroll-behavior: smooth;
+  background-color: #171321;
+}
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+nav {
+  font-family: var(--font-style-mono);
+  font-size: 80%;
+  padding: 4rem 1rem;
+}
+nav ul li h1 a {
+  font-family: var(--font-style-sans);
+}
+nav ul {
+  list-style-type: none;
+  padding: 0; /* this will pull everything to left side of the page( it means no extra space on the nav bar)*/
+  margin: 0; /* this will pull everything to left side of the page( it means no extra space on the nav bar)*/
+  display: flex; /* this will align every links horizontaly*/
+  flex-flow: row wrap; /* flex-flow will wrap every links in the nav bar*/
+  justify-content: center; /*align items in horizontal  */
+  align-items: center; /* align items in vetrical */
+  gap: 2rem; /* gap creates space between links*/
+}
+nav ul li:first-child {
+  /* flex-basis: 100% --adds width to the text */
+  width: 100%;
+  text-align: center;
+  font-size: 120%;
+}
+nav ul li [class*="fa-"] {
+  font-size: 150%;
+  color: var(--clr-aqua);
+}
+nav ul h1 [class*="fa-"] {
+  font-size: 100%;
+}
+nav ul a {
+  color: var(--clr-white);
+  text-decoration: none;
+  display: block;
+}
+nav ul li :hover {
+  color: var(--clr-pink1);
+}
+.button {
+  color: var(--clr-white);
+  background-color: var(--clr-pink1);
+  padding: 0.5rem;
+  border-radius: 5px;
+  font-family: var(--font-style-mono);
+  font-size: 1.2rem;
+  color: var(--clr-white);
+}
+.button:hover {
+  color: rgb(240, 240, 240);
+  background-color: var(--clr-pink);
+}
+a {
+  color: var(--clr-pink1);
+}
+a:hover {
+  color: var(--clr-pink);
+  text-decoration: none;
+}
+#intro {
+  padding-bottom: 10rem;
+  margin: 4rem 7rem;
+}
+#intro p /* paragrph inside #intro */ {
+  font-size: var(--font-size-small);
+  line-height: 1.5;
+  width: 600px;
+  font-weight: 400;
+}
+#intro .intro-info {
+  line-height: 1.9;
+}
+#intro .name {
+  font-family: var(--font-style-mono);
+}
+.name span {
+  font-family: var(--font-style-sans);
+  font-size: var(--font-size-large);
+  color: var(--clr-aqua);
+  display: block;
+}
+#intro h2 {
+  font-size: var(--font-size-large);
+  font-weight: normal;
+}
+#contact-me {
+  background-color: var(--clr-dark-pink);
+  padding: 4rem 0;
+  text-align: center;
+  border: 2px solid var(--clr-pink);
+}
+#contact-me p {
+  font-size: 1.1rem;
+  margin: 0 auto;
+  width: 500px;
+  padding: 2rem 0;
+}
+@media (min-width: 850px) {
+  nav {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  nav ul li:first-child {
+    width: auto;
+    text-align: left;
+    margin-right: auto;
+  }
+}
+footer {
+  text-align: center;
+  padding: 4rem 0;
+}
+footer ul {
+  display: flex;
+  gap: 2rem;
+  list-style-type: none;
+  justify-content: center;
+  font-size: 3rem;
+  align-items: center;
+  flex-flow: row wrap;
+}
+footer h4 {
+  font-size: 1rem;
+  font-family: var(--font-style-sans);
+}
