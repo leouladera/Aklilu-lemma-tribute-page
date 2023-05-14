@@ -61,9 +61,9 @@ nav ul li:first-child :hover {
   color: rgb(238, 242, 255);
 }
 nav ul li [class*="fa-"]:hover {
-  transform: rotate(360deg);
-  transition: 0.5s;
-  margin-left: 4px;
+  transform: rotate(390deg);
+  transition: 0.9s;
+  margin-left: 5px;
 }
 nav ul li a {
   text-decoration: none;
@@ -147,7 +147,7 @@ img {
 }
 #current-life {
   background: #011d4a;
-  padding: 4rem 0 0rem 2rem;
+  padding: 0rem 0 0rem 2rem;
   margin: 3rem;
   border-radius: 30px;
   box-shadow: 0px 0px 10px 7px var(--clr-light-blue-shadow);
