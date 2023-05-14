@@ -190,6 +190,10 @@ img {
   color: var(--clr-light-blue-hover);
   justify-content: center;
 }
+#contact-us ul li:hover {
+  transform: scale(1.2);
+  transition: 0.3s;
+}
 #contact-us p {
   font-size: 1rem;
   color: var(--white);
