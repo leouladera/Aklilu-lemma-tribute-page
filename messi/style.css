@@ -151,15 +151,23 @@ img {
 }
 #current-life {
   background: #011d4a;
-  padding: 0rem 0 0rem 2rem;
+  padding: 0rem 0 0rem 0rem;
   margin: 3rem;
   border-radius: 30px;
   box-shadow: 0px 0px 10px 7px var(--clr-light-blue-shadow);
   flex-grow: wrap row;
   scroll-margin-top: 120px;
 }
+article {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.text {
+  order: 2;
+}
+
 .current-life {
-  padding: 4rem 3rem 4rem 35rem;
+  padding: 3rem 4rem 0rem 2rem;
 }
 #current-life h2 {
   font-size: 5rem;
@@ -169,13 +177,10 @@ img {
 #current-life p {
   font-size: 1rem;
   font-family: var(--font-family-mono);
-  width: 40rem;
+
   color: var(--white);
 }
-#current-life img {
-  float: left;
-  padding-top: 5rem;
-}
+
 #contact-us {
   padding: 6rem 5rem;
   text-align: center;
@@ -222,9 +227,7 @@ img {
   #current-life h2 {
     font-size: 2rem;
   }
-  #current-life p {
-    width: 10rem;
-  }
+
   #current-life img {
     float: left;
   }
