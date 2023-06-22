@@ -1,4 +1,4 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Oxygen&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Oxygen&display=swap");
 :root {
   --clr-dark: #222;
   --clr-white: #fff;
@@ -13,6 +13,9 @@
   --font-size-large: 4rem;
   --font-style-mono: "Oxygen mono", monospace;
   --font-style-sans: Oxygen, sans-serif;
+}
+html {
+  scroll-behavior: smooth;
 }
 body {
   margin: 0; /* clears additional spaces for navbars and box*/
@@ -29,6 +32,11 @@ h2,
 h3 {
   margin: 0;
 }
+img {
+  width: 100%; /*make img smaller or larger based on the screen size*/
+}
+/* nav bar */
+
 nav {
   font-family: var(--font-style-mono);
   font-size: 80%;
@@ -68,6 +76,9 @@ nav ul a {
 nav ul li :hover {
   color: var(--clr-pink1);
 }
+
+/* button */
+
 .button {
   color: var(--clr-white);
   background-color: var(--clr-pink1);
@@ -88,6 +99,9 @@ a:hover {
   color: var(--clr-pink);
   text-decoration: none;
 }
+
+/* inntroduction part */
+
 #intro {
   padding-bottom: 10rem;
   margin: 4rem 7rem;
@@ -114,16 +128,29 @@ a:hover {
   font-size: var(--font-size-large);
   font-weight: normal;
 }
+.gradient {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 0, 170, 1) 0%,
+    rgba(0, 244, 255, 1) 100%
+  );
+  height: 2px;
+}
+.section-dkblue {
+  background: var(--clr-drk-blue);
+}
+
+/* contact-me */
+
 #contact-me {
   background-color: var(--clr-dark-pink);
   padding: 4rem 0;
   text-align: center;
-  border: 2px solid var(--clr-pink);
 }
 #contact-me p {
   font-size: 1.1rem;
   margin: 0 auto;
-  width: 500px;
+  width: 400px;
   padding: 2rem 0;
 }
 @media (min-width: 850px) {
@@ -137,13 +164,73 @@ a:hover {
     margin-right: auto;
   }
 }
+
+/* section-project */
+
+#projects {
+  padding: 4rem 1rem;
+}
+#projects h2 {
+  font-size: 2.5rem;
+  margin-bottom: calc(2.5rem * 1.5);
+}
+#projects h3 {
+  color: var(--clr-aqua);
+}
+#projects h4 {
+  font-size: 1rem;
+  font-family: var(--font-style-mono);
+  margin: 0;
+  padding: 0;
+}
+.black-box {
+  background-color: var(--clr-dark);
+  padding: 2rem;
+  border-radius: 10px;
+  color: var(--clr-white);
+  font-size: 1rem;
+  line-height: 1.5;
+}
+#projects ul {
+  display: flex;
+  gap: 1rem;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  font-size: 1rem;
+}
+#projects img {
+  margin: 2rem 0 4rem 0;
+  border-top: 1px solid var(--clr-aqua);
+  border-left: 1px solid var(--clr-aqua);
+  border-radius: 25px;
+  padding: 1rem;
+}
+@media (min-width: 550px) {
+  article {
+    display: grid;
+    grid-template-columns: 1fr 1fr /*used to put divs next to eachother in a section*/;
+    gap: 2rem;
+  }
+  .text {
+    order: 2; /*this will arrange the order in the grid element*/
+    text-align: right;
+  }
+  #projects ul {
+    justify-content: flex-end;
+  }
+}
+/* footer */
+
 footer {
   text-align: center;
   padding: 4rem 0;
 }
 footer ul {
   display: flex;
-  gap: 2rem;
+  gap: 4rem;
   list-style-type: none;
   justify-content: center;
   font-size: 3rem;
