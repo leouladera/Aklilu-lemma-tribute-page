@@ -93,6 +93,20 @@ nav ul li button:hover {
   text-align: center;
   letter-spacing: 5px;
   align-content: center;
+  opacity: 0%;
+
+  animation: fadein-1 1.6s ease-in-out 0.1s 1 forwards;
+}
+@keyframes fadein-1 {
+  0% {
+    opacity: 0;
+    transform: translateX(-50%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 .menu h4 a {
   color: rgb(30, 30, 30);
@@ -111,6 +125,19 @@ nav ul li button:hover {
   flex-direction: column;
   width: 50%;
   padding: 1rem;
+  opacity: 0%;
+  animation: fadein 1s ease-in-out 0.2s 1 forwards;
+}
+@keyframes fadein {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 #section1 .text p button {
   margin: 3rem 1rem;
@@ -212,6 +239,20 @@ nav ul li button:hover {
   background: rgba(128, 128, 128, 0.085);
   backdrop-filter: blur(20px);
   width: 25%;
+  opacity: 0%;
+
+  animation: fadein 1s ease-in-out 0.2s 1 forwards;
+}
+@keyframes fadein {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 .section2 #low .img-1:hover {
   border-radius: 10px;
@@ -248,6 +289,19 @@ nav ul li button:hover {
   width: 25%;
   background: rgba(128, 128, 128, 0.085);
   backdrop-filter: blur(20px);
+  opacity: 0%;
+  animation: fadein 1s ease-in-out 0.4s 1 forwards;
+}
+@keyframes fadein {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 .section2 #low .img-2:hover {
   box-shadow: 0px 0px 15px 6px #8d909328;
@@ -284,6 +338,20 @@ nav ul li button:hover {
   backdrop-filter: blur(20px);
   border-radius: 10px;
   width: 25%;
+  opacity: 0%;
+
+  animation: fadein 1s ease-in-out 0.6s 1 forwards;
+}
+@keyframes fadein {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 .section2 #low .line-1 .img-3:hover {
   box-shadow: 0px 0px 15px 6px #8d909328;
@@ -325,6 +393,20 @@ nav ul li button:hover {
   backdrop-filter: blur(20px);
   border-radius: 10px;
   width: 25%;
+  opacity: 0%;
+
+  animation: fadein 1s ease-in-out 0.8s 1 forwards;
+}
+@keyframes fadein {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 .section2 #low .img-4:hover {
   box-shadow: 0px 0px 15px 6px #8d909328;
@@ -360,6 +442,20 @@ nav ul li button:hover {
   backdrop-filter: blur(20px);
   border-radius: 10px;
   width: 25%;
+  opacity: 0%;
+
+  animation: fadein 1s ease-in-out 1s 1 forwards;
+}
+@keyframes fadein {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 .section2 #low .img-5:hover {
   box-shadow: 0px 0px 15px 6px #8d909328;
@@ -395,7 +491,22 @@ nav ul li button:hover {
   backdrop-filter: blur(20px);
   border-radius: 10px;
   width: 25%;
+  opacity: 0%;
+
+  animation: fadein 1s ease-in-out 1.2s 1 forwards;
 }
+@keyframes fadein {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .section2 #low .img-6:hover {
   box-shadow: 0px 0px 15px 6px #8d909328;
   background: rgba(128, 128, 128, 0.085);
@@ -464,6 +575,20 @@ nav ul li button:hover {
   backdrop-filter: blur(20px);
   border-radius: 10px;
   width: 25%;
+  opacity: 0%;
+
+  animation: fadein 1s ease-in-out 1.4s 1 forwards;
+}
+@keyframes fadein {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 .section2 #low .img-6:hover {
   box-shadow: 0px 0px 15px 6px #8d909328;
@@ -506,6 +631,20 @@ nav ul li button:hover {
   backdrop-filter: blur(20px);
   border-radius: 10px;
   width: 25%;
+  opacity: 0%;
+
+  animation: fadein 1s ease-in-out 1.6s 1 forwards;
+}
+@keyframes fadein {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 .section2 #low .img-4:hover {
   box-shadow: 0px 0px 15px 6px #8d909328;
@@ -541,6 +680,20 @@ nav ul li button:hover {
   backdrop-filter: blur(20px);
   border-radius: 10px;
   width: 25%;
+  opacity: 0%;
+
+  animation: fadein 1s ease-in-out 1.7s 1 forwards;
+}
+@keyframes fadein {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 .section2 #low .img-5:hover {
   box-shadow: 0px 0px 15px 6px #8d909328;
@@ -576,6 +729,20 @@ nav ul li button:hover {
   backdrop-filter: blur(20px);
   border-radius: 10px;
   width: 25%;
+  opacity: 0%;
+
+  animation: fadein 1s ease-in-out 2s 1 forwards;
+}
+@keyframes fadein {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 .section2 #low .img-6:hover {
   box-shadow: 0px 0px 15px 6px #8d909328;
@@ -645,6 +812,20 @@ nav ul li button:hover {
   backdrop-filter: blur(20px);
   border-radius: 10px;
   width: 25%;
+  opacity: 0%;
+
+  animation: fadein 1s ease-in-out 2.1s 1 forwards;
+}
+@keyframes fadein {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 .section2 #low .img-6:hover {
   box-shadow: 0px 0px 15px 6px #8d909328;
