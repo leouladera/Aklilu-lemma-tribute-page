@@ -201,7 +201,10 @@ nav ul li button:hover {
   /* border: 3px solid green; */
   margin: 2.5rem 0;
 }
-
+/* image pointer cursor */
+img {
+  cursor: pointer;
+}
 .section2 h3 {
   width: 100%;
   font-size: 2.3rem;
@@ -254,28 +257,31 @@ nav ul li button:hover {
     transform: translateY(0);
   }
 }
-.section2 #low .img-1:hover {
+/* .section2 #low .img-1:hover {
   border-radius: 10px;
   box-shadow: 0px 0px 15px 6px #8d909328;
   background: rgba(128, 128, 128, 0.085);
   backdrop-filter: blur(20px);
   transform: scale(1.03);
   transition: 0.5s;
-}
+} */
 .overlay {
   position: absolute;
   bottom: 0;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.53); /* Black see-through */
+  /* background: rgb(0, 0, 0); */
+  background: rgba(16, 16, 16, 0.442); /* Black see-through */
   backdrop-filter: blur(10px);
   color: #f1f1f1;
   width: 100%;
   transition: 0.5s ease;
   opacity: 0;
-  color: white;
+  color: rgb(244, 244, 244);
   font-size: 15px;
   padding: 20px;
   text-align: center;
+  cursor: pointer;
+  border-radius: 0px 0 10px 10px;
+  font-weight: 500;
 }
 .section2 .img-1:hover .overlay {
   transition: 0.75s;
@@ -312,21 +318,7 @@ nav ul li button:hover {
   backdrop-filter: blur(20px);
   transition: 0.4s;
 }
-.overlay {
-  position: absolute;
-  bottom: 0;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.53); /* Black see-through */
-  backdrop-filter: blur(10px);
-  color: #f1f1f1;
-  width: 100%;
-  transition: 0.5s ease;
-  opacity: 0;
-  color: white;
-  font-size: 15px;
-  padding: 20px;
-  text-align: center;
-}
+
 .section2 .img-2:hover .overlay {
   opacity: 1;
 }
@@ -361,21 +353,7 @@ nav ul li button:hover {
   transform: scale(1.03);
   transition: 0.4s;
 }
-.overlay {
-  position: absolute;
-  bottom: 0;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.53); /* Black see-through */
-  backdrop-filter: blur(10px);
-  color: #f1f1f1;
-  width: 100%;
-  transition: 0.5s ease;
-  opacity: 0;
-  color: white;
-  font-size: 15px;
-  padding: 20px;
-  text-align: center;
-}
+
 .section2 .img-3:hover .overlay {
   opacity: 1;
 }
@@ -416,21 +394,7 @@ nav ul li button:hover {
   transform: scale(1.03);
   transition: 0.5s;
 }
-.overlay {
-  position: absolute;
-  bottom: 0;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.53); /* Black see-through */
-  backdrop-filter: blur(10px);
-  color: #f1f1f1;
-  width: 100%;
-  transition: 0.5s ease;
-  opacity: 0;
-  color: white;
-  font-size: 15px;
-  padding: 20px;
-  text-align: center;
-}
+
 .section2 .img-4:hover .overlay {
   opacity: 1;
 }
@@ -465,21 +429,7 @@ nav ul li button:hover {
   transform: scale(1.03);
   transition: 0.5s;
 }
-.overlay {
-  position: absolute;
-  bottom: 0;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.53); /* Black see-through */
-  backdrop-filter: blur(10px);
-  color: #f1f1f1;
-  width: 100%;
-  transition: 0.5s ease;
-  opacity: 0;
-  color: white;
-  font-size: 15px;
-  padding: 20px;
-  text-align: center;
-}
+
 .section2 .img-5:hover .overlay {
   opacity: 1;
 }
@@ -516,21 +466,7 @@ nav ul li button:hover {
 
   transition: 0.5s;
 }
-.overlay {
-  position: absolute;
-  bottom: 0;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.53); /* Black see-through */
-  backdrop-filter: blur(10px);
-  color: #f1f1f1;
-  width: 100%;
-  transition: 0.5s ease;
-  opacity: 0;
-  color: white;
-  font-size: 15px;
-  padding: 20px;
-  text-align: center;
-}
+
 .section2 .img-6:hover .overlay {
   opacity: 1;
 }
@@ -549,21 +485,7 @@ nav ul li button:hover {
   transform: scale(1.03);
   transition: 0.5s;
 }
-.overlay {
-  position: absolute;
-  bottom: 0;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.53); /* Black see-through */
-  backdrop-filter: blur(10px);
-  color: #f1f1f1;
-  width: 100%;
-  transition: 0.5s ease;
-  opacity: 0;
-  color: white;
-  font-size: 15px;
-  padding: 20px;
-  text-align: center;
-}
+
 .section2 .img-5:hover .overlay {
   opacity: 1;
 }
@@ -599,21 +521,7 @@ nav ul li button:hover {
 
   transition: 0.5s;
 }
-.overlay {
-  position: absolute;
-  bottom: 0;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.53); /* Black see-through */
-  backdrop-filter: blur(10px);
-  color: #f1f1f1;
-  width: 100%;
-  transition: 0.5s ease;
-  opacity: 0;
-  color: white;
-  font-size: 15px;
-  padding: 20px;
-  text-align: center;
-}
+
 .section2 .img-6:hover .overlay {
   opacity: 1;
 }
@@ -654,21 +562,7 @@ nav ul li button:hover {
   transform: scale(1.03);
   transition: 0.5s;
 }
-.overlay {
-  position: absolute;
-  bottom: 0;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.53); /* Black see-through */
-  backdrop-filter: blur(10px);
-  color: #f1f1f1;
-  width: 100%;
-  transition: 0.5s ease;
-  opacity: 0;
-  color: white;
-  font-size: 15px;
-  padding: 20px;
-  text-align: center;
-}
+
 .section2 .img-4:hover .overlay {
   opacity: 1;
 }
@@ -703,21 +597,7 @@ nav ul li button:hover {
   transform: scale(1.03);
   transition: 0.5s;
 }
-.overlay {
-  position: absolute;
-  bottom: 0;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.53); /* Black see-through */
-  backdrop-filter: blur(10px);
-  color: #f1f1f1;
-  width: 100%;
-  transition: 0.5s ease;
-  opacity: 0;
-  color: white;
-  font-size: 15px;
-  padding: 20px;
-  text-align: center;
-}
+
 .section2 .img-5:hover .overlay {
   opacity: 1;
 }
@@ -753,21 +633,7 @@ nav ul li button:hover {
 
   transition: 0.5s;
 }
-.overlay {
-  position: absolute;
-  bottom: 0;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.53); /* Black see-through */
-  backdrop-filter: blur(10px);
-  color: #f1f1f1;
-  width: 100%;
-  transition: 0.5s ease;
-  opacity: 0;
-  color: white;
-  font-size: 15px;
-  padding: 20px;
-  text-align: center;
-}
+
 .section2 .img-6:hover .overlay {
   opacity: 1;
 }
@@ -786,21 +652,7 @@ nav ul li button:hover {
   transform: scale(1.03);
   transition: 0.5s;
 }
-.overlay {
-  position: absolute;
-  bottom: 0;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.53); /* Black see-through */
-  backdrop-filter: blur(10px);
-  color: #f1f1f1;
-  width: 100%;
-  transition: 0.5s ease;
-  opacity: 0;
-  color: white;
-  font-size: 15px;
-  padding: 20px;
-  text-align: center;
-}
+
 .section2 .img-5:hover .overlay {
   opacity: 1;
 }
@@ -836,21 +688,7 @@ nav ul li button:hover {
 
   transition: 0.5s;
 }
-.overlay {
-  position: absolute;
-  bottom: 0;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.53); /* Black see-through */
-  backdrop-filter: blur(10px);
-  color: #f1f1f1;
-  width: 100%;
-  transition: 0.5s ease;
-  opacity: 0;
-  color: white;
-  font-size: 15px;
-  padding: 20px;
-  text-align: center;
-}
+
 .section2 .img-6:hover .overlay {
   opacity: 1;
 }
@@ -868,7 +706,8 @@ footer .text {
   display: flex;
   flex-wrap: wrap;
   gap: 8rem;
-  font-family: Roboto Condensed;
+  font-family: sans-serif;
+  font-weight: 100;
 }
 footer .text h3 {
   font-size: 1.5rem;
