@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Plus+Jakarta+Sans:ital@0;1&family=Poppins&family=Roboto&display=swap");
+
+:root {
+  --bg-color: rgb(13, 13, 16);
+  --font-color: rgb(236, 230, 249);
+  --secondary-font-color: rgb(242, 240, 251);
+  --tertiary-font-color: rgb(205, 201, 214);
+  --nav-bar-bg: rgba(13, 13, 16, 0.788);
+  --primary-font-family: "Kode Mono", monospace;
+  --secondary-font-family: "Plus Jakarta Sans", sans-serif;
+  --tertiary-font-family: "Poppins", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: var(--bg-color);
+}
+
+nav {
+  background-color: var(--nav-bar-bg);
+  display: flex;
+  align-items: center;
+  position: fixed;
+  /* top: 0; */
+  width: 100%;
+  /* left: 0; */
+  padding: 1em 4em;
+  /* border: 1px solid wheat; */
+  backdrop-filter: blur(10px);
+  z-index: 11111;
+}
+
+nav .logo {
+  font-family: var(--primary-font-family);
+  color: var(--font-color);
+  /* width: 60%; */
+  font-size: 3em;
+  /* border: 1px solid wheat; */
+  font-weight: 600;
+}
+nav .links {
+  width: 100%;
+}
+nav .links ul {
+  display: flex;
+  list-style-type: none;
+  /* border: 1px solid wheat; */
+  align-items: center;
+  width: 100%;
+  justify-content: flex-end;
+  gap: 4em;
+}
+
+nav .links ul li a {
+  text-decoration: none;
+  color: rgb(187, 186, 186);
+  font-size: 1em;
+  font-family: var(--tertiary-font-family);
+}
+nav .links ul li a button {
+  text-decoration: none;
+  color: rgb(42, 42, 42);
+  padding: 0.4em 0.9em;
+  background-color: rgb(189, 115, 245);
+  border: none;
+  font-size: 1em;
+  font-weight: 600;
+  border-radius: 20px;
+  font-family: var(--secondary-font-color);
+}
+.section1 {
+  display: flex;
+  padding: 8em 8em;
+}
+.section1 .text h1 {
+  color: var(--font-color);
+  font-family: var(--primary-font-family);
+  font-size: 4em;
+  text-transform: capitalize;
+  /* border: 2px solid white; */
+  width: 60%;
+  text-shadow: 0px 0px 220px rgb(139, 69, 223);
+}
+
+.section1 .text p {
+  color: var(--secondary-font-color);
+  font-family: var(--tertiary-font-family);
+  width: 80%;
+  font-size: 1.2em;
+  line-height: 1.5em;
+  /* border: 2px solid white; */
+  margin-top: 2em;
+}
+.section1 .text button {
+  background-color: rgba(135, 51, 246, 0.792);
+  padding: 0.4em 0.9em;
+  box-shadow: 0px 0px 80px 0px rgba(149, 49, 226, 0.923);
+  border-radius: 50px;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  border: none;
+  font-family: var(--tertiary-font-family);
+  color: var(--secondary-font-color);
+  margin-top: 20px;
+}
+.section1 .picture {
+  width: 40%;
+  /* border: 2px solid white; */
+  position: relative;
+  right: 4em;
+  filter: drop-shadow(0 0 120px rgba(116, 63, 250, 0.395));
+}
+.section2 {
+  padding: 5em 7em;
+}
+.section2 h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 5em;
+  letter-spacing: 10px;
+  color: var(--secondary-font-color);
+  font-family: var(--primary-font-family);
+}
+.section2 .section2-content {
+  display: flex;
+  margin-top: 3em;
+}
+.section2 .section2-content .text {
+  width: 50%;
+  color: var(--font-color);
+  font-family: var(--tertiary-font-family);
+  /* border: 1px solid white; */
+  font-size: 1.2em;
+  line-height: 2em;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  position: sticky;
+  bottom: 0px;
+}
+.section2 .section2-content .image {
+  width: 40%;
+
+  border: 1px solid rgba(255, 255, 255, 0.166);
+  /* border: 2px solid white; */
+  position: relative;
+  right: -4em;
+  filter: drop-shadow(0 0 120px rgba(191, 63, 250, 0.815));
+}
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  background-color: #1b1a21d8;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  padding: 0.3em;
+  align-items: center;
+  z-index: 11111;
+  backdrop-filter: blur(10px);
+  color: var(--font-color);
+}
+.bottom-nav h1 {
+  text-align: center;
+  font-family: var(--secondary-font-family);
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.bottom-nav button {
+  font-family: var(--tertiary-font-family);
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: 500;
+  background-color: transparent;
+  border-radius: 30px;
+  border: 1px solid white;
+  padding: 0.2em 0.6em;
+  color: var(--font-color);
+  cursor: pointer;
+}
